@@ -4,15 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="icon" href="./imagenes/icono.png">
+    <link rel="icon" href="./imagen/html.png">
 </head>
 <body>
     <header>
         <h1>HTML y Python</h1>
-        <p>
-            Esta pagina explica las etiquetas de HTML y codigo de Python
-        </p>
+        <p>Esta página explica las etiquetas de HTML y su uso junto con Python.</p>
     </header>
+
+    <main>
+        <section>
+            <h2>1. HTML</h2>
+            <p>
+                HTML significa Lenguaje de Marcado de Hipertexto. Es el lenguaje estándar utilizado para crear y diseñar páginas web. HTML estructura el contenido en la web mediante el uso de una serie de elementos y etiquetas para formatear texto, imágenes, enlaces y otros tipos de contenido.
+            </p>
+            <img src="imagen/876.webp" alt="imagen de lenguaje HTML" width="600" height="400">
+        </section>
+
+        <section>
+            <h2>2. Python</h2>
+            <p>
+                Python es un lenguaje de programación de alto nivel, interpretado y de código abierto, conocido por su sintaxis clara y legible, que se asemeja al lenguaje natural, lo que facilita su aprendizaje y uso.
+            </p>
+            <img src="imagen/1234.webp" alt="imagen de lenguaje Python" width="600" height="400">
+        </section>
+
+        <article>
+            <h2>3. Código en Python</h2>
+            <h3>def hola_mundo():</h3>
+            <h3> print("¡Hola, mundo!")</h3>
+            <img src="codigo_python.png" alt="Ejemplo de código en Python" width="600" height="400">
+        </article>
+
+        
+        <section>
+            <h2>4. Enlaces</h2>
+            <p>Para crear enlaces a otras páginas se usa la etiqueta <code>&lt;a&gt;</code>:</p>
+            <code>&lt;a href="https://www.python.org"&gt;Visitar Python&lt;/a&gt;</code>
+            <a href="https://www.python.org">
+                <img src="imagen/222.webp" alt="Ejemplo de enlaces en HTML" width="600" height="400">
+            </a>
+            <p>Para crear enlaces a otras páginas se usa la etiqueta <code>&lt;a&gt;</code>:</p>
+            <code>&lt;a href="https://developer.mozilla.org/es/docs/Web/HTML"&gt;Visitar Python&lt;/a&gt;</code>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML">
+            <img src="imagen/555.png" alt="Ejemplo de enlaces en HTML" width="600" height="400" >
+            </a>
+        </section>
+        
+
+        <section>
+            <h2>5. Listas</h2>
+            <p>Ejemplo de una lista con temas de Python:</p>
+            <ul>
+                <li><a href="https://docs.python.org/3/tutorial/introduction.html" target="_blank">Variables y Tipos de Datos</a></li>
+                <li><a href="https://docs.python.org/3/tutorial/controlflow.html" target="_blank">Estructuras de Control</a></li>
+                <li><a href="https://docs.python.org/3/tutorial/functions.html" target="_blank">Funciones</a></li>
+                <li><a href="https://docs.python.org/3/tutorial/classes.html" target="_blank">Clases y Objetos</a></li>
+            </ul>
+            
+            <!-- Usamos un contenedor flex para la imagen y el texto -->
+            <div class="contenido-flex">
+                <img src="imagen/python123.png" alt="Python" width="600" height="400">
+                <p>Python permite que los desarrolladores sean más productivos, ya que pueden escribir un programa de Python con menos líneas de código en comparación con muchos otros lenguajes. Python cuenta con una gran biblioteca estándar que contiene códigos reutilizables para casi cualquier tarea.</p>
+            </div>
+        </section>
+        
+        
+
+        <aside>
+            <h2>Información Adicional</h2>
+            <p>Lectura de un entero: num = int(input()). Lectura de un número de punto flotante: num = float(input()). Cálculos con números y el uso de los operadores aritméticos adecuados [+, -, *, /, ()]: suma = 5 + 3. Impresión de texto mediante marcadores de posición en la consola: print('{0} + {1} = {2}'.</p>
+
+        </a>
+        <p>Para crear enlaces a otras páginas se usa la etiqueta <code>&lt;a&gt;</code>:</p>
+        <code>&lt;a href="https://youtu.be/R0e20f2tny0?si=0IzmAIf2hG91Fx8A"&gt;Visitar Python&lt;/a&gt;</code>
+        <a href="https://youtu.be/R0e20f2tny0?si=0IzmAIf2hG91Fx8A">
+        <img src="imagen/756.jpg" alt="Ejemplo de enlaces en Python" width="600" height="400" >
+        </a>
+        
+        </aside>
+
+        <section>
+            <h2>6. Tablas</h2>
+            <p>Ejemplo de una tabla con funciones matemáticas en Python: </p>
+        
+            
+            
+            <table>
+                <tr>
+                    <th>Función</th>
+                    <th>Descripción</th>
+                </tr>
+                <tr>
+                    <td><code>abs(x)</code></td>
+                    <td>Valor absoluto de x</td>
+                </tr>
+                <tr>
+                    <td><code>pow(x, y)</code></td>
+                    <td>x elevado a la potencia y</td>
+                </tr>
+                <tr>
+                    <td><code>round(x)</code></td>
+                    <td>Redondea x al entero más cercano</td>
+                </tr>
+            </table>
+            <img src="tablas.png" alt="Ejemplo de tablas en HTML" width="600" height="400">
+        </section>
+
+        <section>
+            <h2>7. Formularios</h2>
+            <p>Los formularios permiten la interacción con el usuario:</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email">
+                <button type="submit">Enviar</button>
+            </form>
+            <img src="imagen/rene.jpg" alt="Ejemplo de formulario en HTML" width="600" height="400">
+        </section>
+
+        <section>
+            <h2>8. Imágenes y Multimedia</h2>
+            <p>Se pueden agregar imágenes y videos a las páginas web.</p>
+            <img src="imagen/perrito.png" alt="perrito feliz" width="600" height="400">
+            <video controls>
+                <source src="video/pepe.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Página de Aprendizaje de HTML y Python</p>
+    </footer>
 </body>
 </html>
-
